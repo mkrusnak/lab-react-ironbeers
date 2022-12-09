@@ -7,10 +7,31 @@
   pointer-events: none;
 }
 
+.beer-image {
+  height: 300px;
+}
+
+.beerCard {
+  height: 500px;
+  width: auto;
+}
+
+
+.listBeerCards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.navbar {
+  background-color: lightblue;
+  height: 3rem;
 }
 
 .App-header {
